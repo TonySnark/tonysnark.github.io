@@ -1,0 +1,166 @@
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="http://tonysnark.github.io" resolutions="1x" timestamp="1472393747248">
+  <folder name="css">
+    <file name="site_global.css" crc="3916556066"/>
+    <file name="index.css" crc="3800083889" ref="index"/>
+    <file name="iefonts_index.css" crc="4161316520" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="smoothscroll.min.js" crc="240635430" seo="true" mt="1463455438000"/>
+    <file name="tersus.css" crc="4134654515" seo="true" mt="1463397450000"/>
+    <file name="tersus.js" crc="130590978" seo="true" mt="1463400050000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="3851988764" ref="phone>index:tablet>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:tablet>index:index"/>
+    <file name="museconfig.js" crc="169177150" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="phone>index:tablet>index:index"/>
+    <file name="pie.js" crc="3831537696" ref="phone>index:tablet>index:index"/>
+    <file name="webpro.js" crc="4067903014" ref="phone>index:tablet>index:index"/>
+    <file name="musewpslideshow.js" crc="4265225696" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.museoverlay.js" crc="4075157096" ref="phone>index:tablet>index:index"/>
+    <file name="touchswipe.js" crc="474750357" ref="phone>index:tablet>index:index"/>
+    <file name="taketori.js" crc="441513770" ref="phone>index"/>
+    <file name="require.js" crc="4108833657" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musemenu.js" crc="4150485998" ref="tablet>index:index"/>
+    <file name="form_check.php" crc="121412709" ref="tablet>index"/>
+    <file name="form_throttle.php" crc="4268640971" ref="tablet>index"/>
+    <file name="form_process.php" crc="444429785" ref="tablet>index"/>
+    <file name="form-u14858.php" crc="4104258323" ref="tablet>index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="tablet>index:index"/>
+    <file name="form-u21484.php" crc="14903951" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="511146689" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="250476822" ref="phone>index"/>
+    <file name="messages image(1397993522).jpg" crc="336427191" seo="true" ref="phone>index:index"/>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:tablet>index:index"/>
+    <file name="oblige-5.jpg" crc="261459416" seo="true" ref="phone>index:index"/>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:tablet>index:index"/>
+    <file name="u17648-4.png" crc="313698807" ref="phone>index"/>
+    <file name="oblige-5-crop-u43819.jpg" crc="3881182427" ref="phone>index"/>
+    <file name="oblige-6-crop-u43886.jpg" crc="4022617670" ref="phone>index"/>
+    <file name="oblige-7-crop-u43906.jpg" crc="3966730246" ref="phone>index"/>
+    <file name="oblige-8-crop-u43926.jpg" crc="4278745771" ref="phone>index"/>
+    <file name="img_2909-crop-u44403.jpg" crc="4019542922" ref="phone>index"/>
+    <file name="kakaotalk_photo_2016-08-28-20-43-53-crop-u44497.jpg" crc="3858669671" ref="phone>index"/>
+    <file name="oblige-3-crop-u43972.jpg" crc="4066202721" ref="phone>index"/>
+    <file name="oblige-17-crop-u44101.jpg" crc="529372434" ref="phone>index"/>
+    <file name="oblige-20-crop-u44121.jpg" crc="286159215" ref="phone>index"/>
+    <file name="oblige-24-crop-u44141.jpg" crc="3873592511" ref="phone>index"/>
+    <file name="oblige-25-crop-u44161.jpg" crc="4196517571" ref="phone>index"/>
+    <file name="oblige-27-crop-u44181.jpg" crc="3899661977" ref="phone>index"/>
+    <file name="oblige-37-crop-u44201.jpg" crc="355141561" ref="phone>index"/>
+    <file name="img_6024-crop-u44231.jpg" crc="4291819264" ref="phone>index"/>
+    <file name="vsco cam-1.jpg" crc="4227354956" seo="true" ref="phone>index"/>
+    <file name="oblige-48-crop-u44574.jpg" crc="273583102" ref="phone>index"/>
+    <file name="oblige-49-crop-u44991.jpg" crc="3954147098" ref="phone>index"/>
+    <file name="oblige-74-crop-u45011.jpg" crc="504621803" ref="phone>index"/>
+    <file name="oblige-43-crop-u44627.jpg" crc="30518440" ref="phone>index"/>
+    <file name="oblige-45-crop-u44844.jpg" crc="478705887" ref="phone>index"/>
+    <file name="oblige-50-crop-u44864.jpg" crc="3798711170" ref="phone>index"/>
+    <file name="oblige-18-crop-u45330.jpg" crc="4266577863" ref="phone>index"/>
+    <file name="oblige-19-crop-u45397.jpg" crc="277350838" ref="phone>index"/>
+    <file name="oblige-20-crop-u45417.jpg" crc="357832077" ref="phone>index"/>
+    <file name="oblige-21-crop-u45437.jpg" crc="48520792" ref="phone>index"/>
+    <file name="pasted-svg-24869x342.svg" crc="396760932" seo="true" ref="phone>index"/>
+    <file name="pasted svg 24869x342_poster_.png" crc="453579849" ref="phone>index"/>
+    <file name="home_slide01.jpg" crc="448806463" seo="true" ref="tablet>index"/>
+    <file name="home_slide02.jpg" crc="4024707154" seo="true" ref="tablet>index"/>
+    <file name="home_slide03.jpg" crc="4144246012" seo="true" ref="tablet>index"/>
+    <file name="home_slide04.jpg" crc="390698339" seo="true" ref="tablet>index"/>
+    <file name="u14135-grad.png" crc="3781186170" ref="tablet>index"/>
+    <file name="logo.png" crc="3899188077" seo="true" ref="tablet>index"/>
+    <file name="about_bg.jpg" crc="335141631" ref="tablet>index"/>
+    <file name="services_bg.jpg" crc="4069859873" ref="tablet>index:index"/>
+    <file name="services-icn-04.png" crc="4073968742" seo="true" ref="tablet>index:index"/>
+    <file name="services-icn-01.png" crc="374204941" seo="true" ref="tablet>index:index"/>
+    <file name="services-icn-02.png" crc="3899593606" seo="true" ref="tablet>index:index"/>
+    <file name="services-icn-03.png" crc="381378872" seo="true" ref="tablet>index:index"/>
+    <file name="services-icn-06.png" crc="287436972" seo="true" ref="tablet>index:index"/>
+    <file name="services-icn-05.png" crc="4124357589" seo="true" ref="tablet>index:index"/>
+    <file name="folio01a594x394.jpg" crc="3854628363" seo="true" ref="tablet>index"/>
+    <file name="folio01b594x394.jpg" crc="253241261" seo="true" ref="tablet>index"/>
+    <file name="folio01c594x394.jpg" crc="225692312" seo="true" ref="tablet>index"/>
+    <file name="folio02a594x394.jpg" crc="3912248833" seo="true" ref="tablet>index"/>
+    <file name="folio02b594x394.jpg" crc="4205939664" seo="true" ref="tablet>index"/>
+    <file name="folio02c594x394.jpg" crc="93759958" seo="true" ref="tablet>index"/>
+    <file name="folio03a594x394.jpg" crc="3798698868" seo="true" ref="tablet>index"/>
+    <file name="folio03b594x394.jpg" crc="443016800" seo="true" ref="tablet>index"/>
+    <file name="folio03c594x394.jpg" crc="4059256256" seo="true" ref="tablet>index"/>
+    <file name="folio04a594x394.jpg" crc="3985244059" seo="true" ref="tablet>index"/>
+    <file name="folio04b594x394.jpg" crc="231960310" seo="true" ref="tablet>index"/>
+    <file name="folio04c594x394.jpg" crc="241159524" seo="true" ref="tablet>index"/>
+    <file name="folio05a594x394.jpg" crc="118611354" seo="true" ref="tablet>index"/>
+    <file name="folio05b594x394.jpg" crc="4227712928" seo="true" ref="tablet>index"/>
+    <file name="folio05c594x394.jpg" crc="448973402" seo="true" ref="tablet>index"/>
+    <file name="folio06a594x394.jpg" crc="129648152" seo="true" ref="tablet>index"/>
+    <file name="folio06b594x394.jpg" crc="4131821546" seo="true" ref="tablet>index"/>
+    <file name="folio06c594x394.jpg" crc="4225421249" seo="true" ref="tablet>index"/>
+    <file name="folio01_thumb.jpg" crc="487722522" seo="true" ref="tablet>index:index"/>
+    <file name="folio02_thumb.jpg" crc="4006165531" seo="true" ref="tablet>index:index"/>
+    <file name="folio03_thumb.jpg" crc="133236797" seo="true" ref="tablet>index:index"/>
+    <file name="folio04_thumb.jpg" crc="53658064" seo="true" ref="tablet>index:index"/>
+    <file name="folio05_thumb.jpg" crc="4068128311" seo="true" ref="tablet>index:index"/>
+    <file name="folio06_thumb.jpg" crc="495966947" seo="true" ref="tablet>index:index"/>
+    <file name="team_img01.jpg" crc="3900763319" ref="tablet>index:index"/>
+    <file name="team_img02.jpg" crc="4076620409" ref="tablet>index:index"/>
+    <file name="team_img03.jpg" crc="282230381" ref="tablet>index:index"/>
+    <file name="team_img04.jpg" crc="506960555" ref="tablet>index:index"/>
+    <file name="divider_bg.jpg" crc="450862287" ref="tablet>index:index"/>
+    <file name="u14874-17.png" crc="4122189929" ref="tablet>index"/>
+    <file name="u14874-17-r.png" crc="3829400676" ref="tablet>index"/>
+    <file name="u14874-17-m.png" crc="3829400676" ref="tablet>index"/>
+    <file name="u14874-17-fs.png" crc="459436712" ref="tablet>index"/>
+    <file name="arrow-up.svg" crc="386994326" seo="true" ref="tablet>index:index"/>
+    <file name="arrow-up_poster_.png" crc="442066095" ref="tablet>index"/>
+    <file name="u135-4.png" crc="4170302618" ref="index"/>
+    <file name="ig.svg" crc="4049001411" seo="true" ref="index"/>
+    <file name="ig_poster_.png" crc="151372422" ref="index"/>
+    <file name="oblige-29.jpg" crc="4213226043" ref="index"/>
+    <file name="logo.svg" crc="366604670" seo="true" ref="index"/>
+    <file name="logo_poster_.png" crc="3898235922" ref="index"/>
+    <file name="folio01a.jpg" crc="3854628363" seo="true" ref="index"/>
+    <file name="folio01b.jpg" crc="4070541694" seo="true" ref="index"/>
+    <file name="folio01c.jpg" crc="225692312" seo="true" ref="index"/>
+    <file name="folio02a.jpg" crc="3912248833" seo="true" ref="index"/>
+    <file name="folio02b.jpg" crc="4205939664" seo="true" ref="index"/>
+    <file name="folio02c.jpg" crc="93759958" seo="true" ref="index"/>
+    <file name="folio03a.jpg" crc="4288060268" seo="true" ref="index"/>
+    <file name="folio03b.jpg" crc="443016800" seo="true" ref="index"/>
+    <file name="folio03c.jpg" crc="4109540276" seo="true" ref="index"/>
+    <file name="folio04a.jpg" crc="536611478" seo="true" ref="index"/>
+    <file name="folio04b.jpg" crc="3943739755" seo="true" ref="index"/>
+    <file name="folio04c.jpg" crc="3788413649" seo="true" ref="index"/>
+    <file name="folio05a.jpg" crc="118611354" seo="true" ref="index"/>
+    <file name="folio05b.jpg" crc="4227712928" seo="true" ref="index"/>
+    <file name="folio05c.jpg" crc="448973402" seo="true" ref="index"/>
+    <file name="folio06a.jpg" crc="129648152" seo="true" ref="index"/>
+    <file name="folio06b.jpg" crc="4131821546" seo="true" ref="index"/>
+    <file name="folio06c.jpg" crc="4225421249" seo="true" ref="index"/>
+    <file name="folio01a-ieu27953-fr.png" crc="134870599" ref="index"/>
+    <file name="icn_expand.png" crc="234042916" ref="index"/>
+    <file name="portfolio_behance.png" crc="3862762438" seo="true" ref="index"/>
+    <file name="u21487-17.png" crc="431564184" ref="index"/>
+    <file name="u21487-17-r.png" crc="231590301" ref="index"/>
+    <file name="u21487-17-m.png" crc="231590301" ref="index"/>
+    <file name="u21487-17-fs.png" crc="431564184" ref="index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="4089779485" ref="tablet>index"/>
+      <file name="iefonts_index.css" crc="392348779" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="267963856" seo="true" mt="1472383211129" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="taketori.css" crc="3949100683" ref="phone>index"/>
+      <file name="index.css" crc="4010289817" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="406145794" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="3760604413" seo="true" mt="1472393099947" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="440476353" seo="true" mt="1472383211128" redirect="true"/>
+</manifest>
