@@ -74,7 +74,7 @@
             const message = document.getElementById('message').value;
             const location = document.querySelector('input[name="location"]:checked').value;
 
-            const response = await fetch('https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec', {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbx6U_h4mc4y5iLgr9dOued2RMOqOxhLRdypw3vbhpYrRGhssY--vIQwtLufINd4rk9w/exec', {
                 method: 'POST',
                 body: JSON.stringify({ name, message, location }),
                 headers: {
