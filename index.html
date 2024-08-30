@@ -5,7 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan and Nate Hoeroscope</title>
     <style>
-        /* ... (previous CSS remains unchanged) ... */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e6f3ff; /* Baby blue background */
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            background-color: #ffffff;
+            border: 10px solid #ffc0cb; /* Pink border */
+            border-radius: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        h1 {
+            color: #0000ff; /* Blue text */
+            font-size: 24px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 2px solid #ffc0cb; /* Pink border */
+            border-radius: 5px;
+            font-style: italic;
+            color: #a9a9a9; /* Light gray text */
+        }
+        .radio-group {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 15px;
+        }
+        .radio-option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .radio-option input[type="radio"] {
+            display: none;
+        }
+        .radio-option label {
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        .radio-option input[type="radio"]:checked + label {
+            background-color: #ffc0cb; /* Pink highlight */
+        }
+        .emoji {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+        .location-text {
+            color: #0000ff; /* Blue text */
+            font-size: 12px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0000ff; /* Blue button */
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        #confirmation {
+            display: none;
+            color: green;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
