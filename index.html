@@ -34,6 +34,9 @@
             margin-bottom: 20px;
             line-height: 1.2;
         }
+        h1 span {
+            font-weight: bold;
+        }
         input, textarea {
             width: 100%;
             padding: 10px;
@@ -43,6 +46,9 @@
             border-radius: 5px;
             font-style: italic;
             color: #a9a9a9; /* Light gray text */
+        }
+        input::placeholder, textarea::placeholder {
+            font-size: 24px; /* Doubled size of placeholder text */
         }
         .radio-group {
             display: flex;
@@ -67,12 +73,12 @@
             background-color: #ffc0cb; /* Pink highlight */
         }
         .emoji {
-            font-size: 80px;
+            font-size: 60px; /* Increased emoji size */
             margin-bottom: 5px;
         }
         .location-text {
             color: #0000ff; /* Blue text */
-            font-size: 24px;
+            font-size: 16px; /* Increased location text size */
         }
         button {
             width: 100%;
@@ -108,15 +114,33 @@
             border-radius: 10px;
             font-size: 18px;
         }
+        .cta {
+            color: #0000ff;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            z-index: 1000;
+            animation: fall 3s linear forwards;
+        }
+        @keyframes fall {
+            to {
+                transform: translateY(100vh);
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="content">
-            <h1>JORDAN AND NATE HOEROSCOPE</h1>
+            <h1>JORDAN AND NATE <span>HOE</span>ROSCOPE</h1>
             <form id="myForm" target="hidden_iframe" onsubmit="return handleSubmit()">
                 <input type="text" id="name" name="name" placeholder="name" required>
                 <textarea id="message" name="message" placeholder="message" required rows="4"></textarea>
+                <div class="cta">choose your future:</div>
                 <div class="radio-group">
                     <div class="radio-option">
                         <input type="radio" id="outdoors" name="location" value="outdoors" required>
@@ -181,6 +205,7 @@
                         confirmation.style.display = 'none';
                     }, 3000);
                     document.body.style.background = '#e6f3ff'; // Reset background
+                    createConfetti(formData.get('location'));
                 })
                 .catch(error => {
                     overlay.style.display = 'none';
@@ -191,6 +216,27 @@
                 });
 
             return true;
+        }
+
+        function createConfetti(location) {
+            const cityEmojis = ['🍸', '💃', '🏙️', '🚗', '🚕', '🌆', '🎭', '🍷', '🏬', '🚅', '🗽', '🎰', '🍝', '🍕', '🌇', '🏛️', '🏢', '🚖', '🚊', '🎡', '🎪', '🏪', '🏨', '🏦', '🏫', '🏟️', '🎵', '🎺', '🥂', '🍻', '🥴', '😵‍💫', '🫡', '🥲', '🤯', '🤠', '🥳', '😎', '🤓', '🧐', '🤑', '🤪'];
+            
+            const outdoorEmojis = ['🌳', '🦌', '🏔️', '🏕️', '🌿', '🦅', '🌻', '🍄', '🐿️', '🌲', '🏞️', '🌺', '🦋', '🐛', '🐝', '🦔', '🦦', '🦥', '🦘', '🦚', '🦜', '🐠', '🌴', '🌵', '🌼', '🍃', '🍂', '🍁', '🐢', '🦎', '🦖', '🐉', '🌋', '⛰️', '🏜️', '🏝️', '🥴', '😵‍💫', '🫡', '🥲', '🤠', '🤓', '😎', '🥳', '🤪', '😊'];
+
+            const emojis = location === 'city' ? cityEmojis : outdoorEmojis;
+            
+            for (let i = 0; i < 100; i++) {  // Increased from 50 to 100 for more confetti
+                const emoji = document.createElement('div');
+                emoji.classList.add('confetti');
+                emoji.style.left = Math.random() * 100 + 'vw';
+                emoji.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+                document.body.appendChild(emoji);
+
+                setTimeout(() => {
+                    emoji.remove();
+                }, 5000);
+            }
         }
     </script>
 </body>
