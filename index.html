@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jordan and Nate HOEroscope</title>
+    <title>Jordan and Nate Hoeroscope</title>
     <style>
         body, html {
             height: 100%;
@@ -33,9 +33,10 @@
             font-size: 28px;
             margin-bottom: 20px;
             line-height: 1.2;
+            font-weight: normal; /* Ensure non-bold text */
         }
         h1 span {
-            font-weight: bold;
+            font-weight: bold; /* Bold for HOE */
         }
         input, textarea {
             width: 100%;
@@ -45,9 +46,11 @@
             border: 2px solid #ffc0cb; /* Pink border */
             border-radius: 5px;
             font-style: italic;
-            color: #a9a9a9; /* Light gray text */
+            color: #000000; /* Black text for input */
+            font-size: 24px; /* Larger font size for input text */
         }
         input::placeholder, textarea::placeholder {
+            color: #a9a9a9; /* Light gray text for placeholder */
             font-size: 24px; /* Doubled size of placeholder text */
         }
         .radio-group {
@@ -121,8 +124,6 @@
         }
         .confetti {
             position: fixed;
-            width: 10px;
-            height: 10px;
             z-index: 1000;
             animation: fall 3s linear forwards;
         }
@@ -131,13 +132,18 @@
                 transform: translateY(100vh);
             }
         }
+        .version {
+            font-size: 12px;
+            color: #a9a9a9;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="content">
             <h1>JORDAN AND NATE <span>HOE</span>ROSCOPE</h1>
-            <form id="myForm" target="hidden_iframe" onsubmit="return handleSubmit()">
+            <form id="myForm" onsubmit="return handleSubmit()">
                 <input type="text" id="name" name="name" placeholder="name" required>
                 <textarea id="message" name="message" placeholder="message" required rows="4"></textarea>
                 <div class="cta">choose your future:</div>
@@ -160,10 +166,10 @@
                 <button type="submit">submit</button>
             </form>
             <div id="confirmation"></div>
+            <div class="version">v1.2</div>
         </div>
     </div>
 
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
     <div id="overlay">
         <div id="overlay-content">Submitting...</div>
     </div>
@@ -229,6 +235,7 @@
                 const emoji = document.createElement('div');
                 emoji.classList.add('confetti');
                 emoji.style.left = Math.random() * 100 + 'vw';
+                emoji.style.top = -20 + 'px';
                 emoji.style.animationDuration = (Math.random() * 3 + 2) + 's';
                 emoji.style.fontSize = '24px';  // Make emojis larger
                 emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
