@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jordan and Nate Hoeroscope</title>
+    <title>Jordan and Nate HOEroscope</title>
     <style>
         body, html {
             height: 100%;
@@ -190,7 +190,7 @@
         function handleSubmit() {
             const formData = new FormData(form);
             const queryString = new URLSearchParams(formData).toString();
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbwmtQIWv8eZOdtB0kNftO8MeN253Kv8p-vfj4da_t_PFjG00yU2nsEV_lyZOB7cDyEl/exec';
+            const scriptURL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
 
             overlay.style.display = 'flex';
 
@@ -215,7 +215,7 @@
                     confirmation.style.color = 'red';
                 });
 
-            return true;
+            return false;  // Prevent form from submitting normally
         }
 
         function createConfetti(location) {
@@ -225,11 +225,12 @@
 
             const emojis = location === 'city' ? cityEmojis : outdoorEmojis;
             
-            for (let i = 0; i < 100; i++) {  // Increased from 50 to 100 for more confetti
+            for (let i = 0; i < 100; i++) {
                 const emoji = document.createElement('div');
                 emoji.classList.add('confetti');
                 emoji.style.left = Math.random() * 100 + 'vw';
                 emoji.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                emoji.style.fontSize = '24px';  // Make emojis larger
                 emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
                 document.body.appendChild(emoji);
 
